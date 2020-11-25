@@ -10,6 +10,9 @@
         <p>Publisher: {{ book.publisher }}</p>
     </div> 
 
+    <form action="/books/{{ book.id }}/delete" method="POST">
+        <button type="submit">Delete</button>
+    </form>
 {% endfor %} 
 
 {% endblock%}
