@@ -1,3 +1,21 @@
 body{
   font-family: "Helvetica", arial, sans-serif; font-size: 16px;
 }
+
+.menu {
+  font-family: "Helvetica", arial, sans-serif; font-size: 16px;
+  background-color: rgb(180, 175, 175);
+  color: white;
+}
+
+li {
+  font-family: "Helvetica", arial, sans-serif; font-size: 16px;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightseagreen;
+  margin: 0;
+  padding: 10px;
+}
